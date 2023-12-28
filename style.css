@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    color: white; 
+}
+
+#myGreeting{
+    background-image: url("./images/bg-img.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.sec-one{
+    display: flex;
+   padding: 4rem;
+}
+
+.content{
+    width: 50%;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#btnDiv{
+display: flex;
+justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #333; 
+    margin-block: 7px;
+    
+}
+.btn2{
+    background-color: rgb(44, 94, 44);
+}
+
+/* Styles for the countdown timer container */
+.timer{
+    width: 50%;
+    margin-left: 17rem;
+}
+ 
+ #countdown-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(44, 94, 44); 
+    border-radius: 10px;
+    width: 300px; 
+    font-size: 24px;
+}
+
+#countdown-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333; 
+}
+
+/* ================footer============ */
+.flex-icons{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 3rem;
+	
+}
